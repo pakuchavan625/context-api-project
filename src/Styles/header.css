@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+.nav > li {
+    color: white;
+    font-size: 20px;
+}
+
+.nav > li:hover{
+    color: turquoise;
+}
+ .product-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+ }
+ .product{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+ }
+
